@@ -10,4 +10,8 @@ public class Sinhvien1 {
         this.hoTen = hoTen;
         this.diem = diem;
     }
+     public void hienThi() {
+        System.out.println("Ma SV: " + maSV);
+        System.out.println("Ho ten: " + hoTen);
+        System.out.println("Diem: " + diem);
 }
