@@ -14,4 +14,8 @@ public class Sinhvien1 {
         System.out.println("Ma SV: " + maSV);
         System.out.println("Ho ten: " + hoTen);
         System.out.println("Diem: " + diem);
+     }
+     public boolean timKiem(String maCanTim) {
+             return maSV.equalsIgnoreCase(maCanTim);
+}
 }
