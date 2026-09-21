@@ -18,6 +18,9 @@ sc.nextLine();
 Sinhvien1 sv = new Sinhvien1(maSV, hoTen, diem);
 System.out.println("\n--- THONG TIN SINH VIEN ---");
 sv.hienThi();
+System.out.println("Xep loai: " + sv.xepLoai());
+
+System.out.println("\nNhap ma sinh vien can tim: ");
 System.out.print("\nNhap ma sinh vien can tim: ");
 String maCanTim = sc.nextLine();
 
