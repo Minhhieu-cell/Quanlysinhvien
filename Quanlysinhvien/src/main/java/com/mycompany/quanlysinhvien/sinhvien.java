@@ -39,11 +39,11 @@ public class sinhvien {
     }
 public void nhap(Scanner sc)
 {
-    System.out.print("Mã sinh viên: ");
+    System.out.print("Ma sinh vien: ");
     maSV=sc.nextLine();
-    System.out.print("Họ và tên: ");
+    System.out.print("Ho va ten: ");
     hoTen=sc.nextLine();
-    System.out.print("Điểm: ");
+    System.out.print("Diem: ");
     diem=sc.nextFloat();
     
 }
