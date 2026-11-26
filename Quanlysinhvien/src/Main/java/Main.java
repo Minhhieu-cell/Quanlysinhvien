@@ -7,7 +7,7 @@ import quanlysinhvien.Student;
 public class Main {
     public static void main(String[] args) {
      
-        Student sv1 = new Student("SV001", "Nguyễn Văn An", "15/08/2004");
+        Student sv1 = new Student("SV001", "Hoang Minh Hieu", "30/11/2008");
 
         System.out.println("=== THÔNG TIN SINH VIÊN 1 ===");
         sv1.hienThiThongTin();
